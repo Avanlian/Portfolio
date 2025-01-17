@@ -1,3 +1,5 @@
 title: Anthony's Showcase
 description: The portfolio of Anthony Vanlian
 remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme
