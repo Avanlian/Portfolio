@@ -9,10 +9,10 @@ Explore the sections below to learn more about my skills, projects, and experien
 
 # Projects:
 ## Wizard Wars
-[Wizard-Wars](./wizard-wars.md)
+[Wizard-Wars](./wizard-wars.html)
 
 ## The Box Dimension
-[The-Box-Dimension](./the-box-dimension.md)
+[The-Box-Dimension](./the-box-dimension.html)
 
 ## Zelda (Unity Remake)
-[Zelda-Remake](./zelda-remake.md)
+[Zelda-Remake](./zelda-remake.html)
