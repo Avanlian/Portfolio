@@ -1,6 +1,3 @@
-# Anthony Vanlian (Avanlian)
-
-
 # About Me
 Hello! I’m Anthony, a Computer Science student at the University of Michigan entering my final year of study. I was born in the country formerly known as Burma, before immigrating to the United States, where I grew up. When I’m not busy coding, you can find me running, exercising, listening to music, or playing games. 
 
