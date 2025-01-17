@@ -18,3 +18,6 @@ Wizard Wars is a top-down action fighting game, initially developed as a rapid p
 
 ![image3](./Assets/WizardWars/Images/MageFight.png)
 
+## Technologies Used
+- Unity Game Engine
+- Photoshop
