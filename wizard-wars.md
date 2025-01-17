@@ -5,7 +5,7 @@ Wizard Wars is a top-down action fighting game, initially developed as a rapid p
 
 ## [Download Here](https://avanlian.itch.io/wizard-wars)
 
-## Gameplay Footage
+## [Gameplay Footage](https://youtu.be/dOp4nw237zI)
 
 ## [Return](./)
 
