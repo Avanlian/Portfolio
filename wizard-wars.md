@@ -5,4 +5,15 @@ Wizard wars is a top down action action fighting game. This was a rapid prototyp
 
 ## [Download Here](https://avanlian.itch.io/wizard-wars)
 
+## Gameplay
+![Tutorial](./Assets/WizardWars/Images/Tutorial.png)
+
+![image1](./Assets/WizardWars/Images/Crit.png)
+
+![image2](./Assets/WizardWars/Images/Crit2.png)
+
+![image3](./Assets/WizardWars/Images/MageFight.png)
+
+![image4](./Assets/WizardWars/Images/KnightBattle.png)
+
 ## [Return](./)
