@@ -5,7 +5,7 @@ The Box Dimension is a turn-based action game, developed as the showcase project
 
 ## Download Here
 
-## Gameplay Footage
+## [Gameplay Footage](https://youtu.be/HBWRyPRi3Tk)
 
 ## [Return](./)
 
