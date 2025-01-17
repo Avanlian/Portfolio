@@ -1,5 +1,5 @@
-# Portfolio
-![Test](./Assets/WizardWars/Images/Crit.png)
+# Anthony Vanlian
+## (Avanlian)
 
 ## Education
 University of Michigan
