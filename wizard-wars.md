@@ -8,11 +8,11 @@ Wizard Wars is a top-down action fighting game, initially developed as a rapid p
 </a>
  
 <a href="https://youtu.be/dOp4nw237zI">
-   <img src="./Assets/WebsiteImages/GameplayButton.png" alt="alternative text" style="width:444px;height:144px;><br>
+   <img src="./Assets/WebsiteImages/GameplayButton.png" alt="alternative text" style="width:444px;height:144px;"><br>
 </a>
  
 <a href="./">
-   <img src="./Assets/WebsiteImages/ReturnButton.png" alt="alternative text" style="width:444px;height:144px;><br>
+   <img src="./Assets/WebsiteImages/ReturnButton.png" alt="alternative text" style="width:444px;height:144px;"><br>
 </a>
  
 ## Images
