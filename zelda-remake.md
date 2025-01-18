@@ -12,15 +12,15 @@ The Legend of Zelda project is a "remaster" of the first dungeon from the classi
 </a>
  
 ## Images
-![image1](./Assets/Zelda/Images/Gameplay1)
+![image1](./Assets/Zelda/Images/Gameplay1.png)
 
-![image2](./Assets/Zelda/Images/Gameplay2)
+![image2](./Assets/Zelda/Images/Gameplay2.png)
 
-![image3](./Assets/Zelda/Images/Gameplay3)
+![image3](./Assets/Zelda/Images/Gameplay3.png)
 
-![image4](./Assets/Zelda/Images/Gameplay4)
+![image4](./Assets/Zelda/Images/Gameplay4.png)
 
-![image5](./Assets/Zelda/Images/Gameplay5)
+![image5](./Assets/Zelda/Images/Gameplay5.png)
 
 ## Technologies Used
 - Unity Game Engine
