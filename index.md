@@ -13,5 +13,6 @@ Explore the sections below to learn more about my skills, projects, and experien
 
 # Resume
 
-##![Test](./Assets/WizardWars/Images/Tutorial.png)
-[Test](https://www.youtube.com/)
+<a href="https://www.youtube.com/">
+  <img src="./Assets/WizardWars/Images/Tutorial.png">
+</a>
