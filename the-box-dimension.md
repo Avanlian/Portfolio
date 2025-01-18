@@ -8,7 +8,7 @@ The Box Dimension is a turn-based action game, developed as the showcase project
 <a href="[https://www.youtube.com/](https://avanlian.itch.io/the-box-dimension)">
    <img src="./Assets/WebsiteImages/DownloadButton.png" alt="alternative text" style="width:222px;height:72px;"><br>
 </a>
- 
+
 <a href="https://youtu.be/HBWRyPRi3Tk">
    <img src="./Assets/WebsiteImages/GameplayButton.png" alt="alternative text" style="width:222px;height:72px;"><br>
 </a>
