@@ -3,13 +3,19 @@
 ## Description:
 The Box Dimension is a turn-based action game, developed as the showcase project for EECS 494. Created over the course of six weeks by a talented team, the game features a cat inside a box, attempting to escape while battling various enemies. Below, you’ll find showcase images and a download link.
 
-### Download
-
 ### [Trailer](https://www.youtube.com/watch?v=3QQ4j90dH1U)
 
-### [Gameplay Footage](https://youtu.be/HBWRyPRi3Tk)
-
-### [Return](./)
+<a href="https://www.youtube.com/">
+   <img src="./Assets/WebsiteImages/DownloadButton.png" alt="alternative text" style="width:111px;height:36px;">
+</a>
+ 
+<a href="https://youtu.be/HBWRyPRi3Tk">
+   <img src="./Assets/WebsiteImages/GameplayButton.png" alt="alternative text" style="width:111px;height:36px;">
+</a>
+ 
+<a href="./">
+   <img src="./Assets/WebsiteImages/ReturnButton.png" alt="alternative text" style="width:111px;height:36px;">
+</a>
 
 ## Images
 ![Title](./Assets/BoxDimension/Images/Title.png)
