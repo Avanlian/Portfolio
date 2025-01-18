@@ -3,6 +3,7 @@ Hello! I’m Anthony, a Computer Science student at the University of Michigan e
 
 Explore the sections below to learn more about my skills, projects, and experiences.
 
+# Resume
 
 # Projects:
 ## [Wizard Wars](./wizard-wars.html)
@@ -11,8 +12,3 @@ Explore the sections below to learn more about my skills, projects, and experien
 
 ## [The Legend of Zelda(Unity Remake)](./zelda-remake.html)
 
-# Resume
-
-<a href="https://www.youtube.com/">
-  <img src="./Assets/WizardWars/Images/Tutorial.png">
-</a>
