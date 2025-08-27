@@ -1,3 +1,4 @@
 export const getImageUrl = (path) => {
-    return new URL('/assets/${path}', import.meta.url).href;
+  const assetPath = `/assets/${path}`;
+  return new URL(assetPath, import.meta.url).href;
 };

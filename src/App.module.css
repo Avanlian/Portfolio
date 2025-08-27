@@ -1,9 +1,8 @@
 @import "./vars.css";
 
-.App{
+.App {
   background-color: var(--color-bg);
   width: 100%;
-  Height: 100%;
-
-  color:white;
+  height: 100%;
+  overflow: hidden;
 }
