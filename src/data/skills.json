@@ -1,5 +1,13 @@
 [
   {
+    "title": "C#",
+    "imageSrc": "skills/c-sharp.png"
+  },
+  {
+    "title": "C++",
+    "imageSrc": "skills/c++.png"
+  },
+  {
     "title": "HTML",
     "imageSrc": "skills/html.png"
   },
@@ -14,5 +22,13 @@
   {
     "title": "Figma",
     "imageSrc": "skills/figma.png"
+  },
+  {
+    "title": "n8n",
+    "imageSrc": "skills/n8n.png"
+  },
+  {
+    "title": "Photoshop",
+    "imageSrc": "skills/photoshop.png"
   }
 ]
