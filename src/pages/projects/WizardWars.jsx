@@ -1,8 +1,11 @@
+import styles from "../../App.module.css";
+import { PageNavbar } from "../../components/Navbar/PageNavbar";
+
 export function WizardWars()
 {
     return(
-        <div>
-            WizardWars Page
+        <div className={styles.App}>
+            <PageNavbar />
         </div>
     )
 }
