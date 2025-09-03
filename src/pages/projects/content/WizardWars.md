@@ -1,7 +1,6 @@
 *Unity (2024) · Solo Project*  
 
 ---
-
 ## Overview
 **Wizard Wars** was a rapid prototype built to showcase how **quickly a game can be developed in Unity**.  
 The project is a **boss rush** where the player faces 3 unique boss encounters while mastering a small set of abilities.  

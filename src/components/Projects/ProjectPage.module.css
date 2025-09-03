@@ -53,6 +53,35 @@
   line-height: 1.55;
 }
 
+/* Paragraphs */
+.description p {
+  margin: 0 0 1.25em; /* add bottom margin */
+}
+
+/* Headings */
+.description h1,
+.description h2,
+.description h3 {
+  font-weight: 700;
+  margin: 1.5em 0 0.75em;
+}
+
+/* Lists */
+.description ul,
+.description ol {
+  margin: 0 0 1.25em 1.5em; /* left indent + bottom spacing */
+}
+
+.description li {
+  margin: 0.25em 0;
+}
+
+/* Optional: links */
+.description a {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
 .links {
   display: flex;
   flex-wrap: wrap;
