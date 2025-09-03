@@ -26,8 +26,8 @@
   font-family: var(--font-roboto);
   background: linear-gradient(
     90deg,
-    rgba(255, 255, 255, 1) 70%,
-    rgba(255, 255, 255, 0) 120%
+    rgb(255, 255, 255) 70%,
+    rgba(100, 56, 56, 0) 120%
   );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -62,39 +62,13 @@
   flex-direction: column;
   gap: 20px;
   flex: 1;
-  max-height: 80vh;
-  overflow-y: auto;
 }
 
 .imageList img {
   width: 100%;
-  border-radius: 12px;
+  max-height: 400px;
+  border-radius: 8px;
   object-fit: cover;
-}
-
-/* Keep blur effects */
-.topBlur {
-  position: absolute;
-  width: 50vw;
-  height: 50vw;
-  top: -128px;
-  left: -10vw;
-  border-radius: 764px;
-  background: rgba(25, 55, 109, 0.7);
-  filter: blur(100px);
-  z-index: 0;
-}
-
-.bottomBlur {
-  position: absolute;
-  width: 70vw;
-  height: 50vw;
-  top: 246px;
-  right: -25vw;
-  border-radius: 764px;
-  background: rgba(25, 55, 109, 0.7);
-  filter: blur(100px);
-  z-index: 0;
 }
 
 @media screen and (max-width: 830px) {
@@ -104,11 +78,13 @@
   }
 
   .content {
+    order: 1;
     align-items: center;
     text-align: center;
   }
 
   .imageList {
+    order: 2;
     max-height: none;
     width: 100%;
   }

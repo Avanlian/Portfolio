@@ -4,7 +4,8 @@ import { getImageUrl } from "../../utils";
 
 export const PageNavbar = () => {
   return (
-      <nav className={styles.navbar}>
+    <section> 
+      <nav className={styles.navbar} id="page">
         <a className={styles.title} href="/">
           Portfolio
         </a>
@@ -15,5 +16,6 @@ export const PageNavbar = () => {
           </ul>
         </div>
       </nav>
+    </section>
   );
 };

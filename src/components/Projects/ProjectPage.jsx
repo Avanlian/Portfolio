@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./ProjectPage.module.css";
+import { VerticalCarousel } from "../VerticalCarousel/VerticalCarousel";
 
 // Pass images, title, description, and links as props
 export const ProjectPage = ({ title, description, images = [], links = [] }) => {
@@ -26,12 +27,8 @@ export const ProjectPage = ({ title, description, images = [], links = [] }) => 
         </div>
       </div>
 
-      {/* Right Side - Vertical Image List */}
-      <div className={styles.imageList}>
-        {images.map((src, i) => (
-          <img key={i} src={src} alt={`${title} screenshot ${i + 1}`} />
-        ))}
-      </div>
+      {/* Right Side - Vertical Carousel */}
+      <VerticalCarousel images={images} />
     </section>
   );
 };
