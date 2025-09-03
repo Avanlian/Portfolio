@@ -9,6 +9,20 @@ export function AccountabilityBot()
     return(
         <div className={styles.App}>
             <PageNavbar />
+            <ProjectPage
+                title="AI Accountability Bot"
+                description=""
+                images={[
+                    getImageUrl("projects/AIChatBot/img1.png"),
+                    getImageUrl("projects/AIChatBot/img2.png"),
+                    getImageUrl("projects/AIChatBot/img3.png"),
+                    getImageUrl("projects/AIChatBot/img4.png"),
+                    getImageUrl("projects/AIChatBot/img5.png"),
+                    getImageUrl("projects/AIChatBot/img6.png"),
+                    getImageUrl("projects/AIChatBot/img7.png"),
+                    getImageUrl("projects/AIChatBot/img8.png"),
+                    getImageUrl("projects/AIChatBot/img9.png")
+                ]}/>
         </div>
     )
 }

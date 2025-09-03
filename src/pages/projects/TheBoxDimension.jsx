@@ -10,12 +10,18 @@ export function TheBoxDimension()
         <div className={styles.App}>
             <PageNavbar />
             <ProjectPage
-                title="The Tower of Albion"
-                description="A roguelike where players ascend procedurally generated floors, choosing between unique powerups and battling diverse enemy AI."
+                title="The Box Dimension"
+                description=""
                 images={[
-                    getImageUrl("projects/wizardWars/img1.png")
+                    getImageUrl("projects/theBoxDimension/img1.png"),
+                    getImageUrl("projects/theBoxDimension/img2.png"),
+                    getImageUrl("projects/theBoxDimension/img3.png"),
+                    getImageUrl("projects/theBoxDimension/img4.png"),
+                    getImageUrl("projects/theBoxDimension/img5.png"),
+                    getImageUrl("projects/theBoxDimension/img6.png"),
+                    getImageUrl("projects/theBoxDimension/img7.png"),
+                    getImageUrl("projects/theBoxDimension/img8.png")
                 ]}/>
-            <Contact/>
         </div>
     )
 }
