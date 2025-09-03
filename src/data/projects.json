@@ -25,7 +25,7 @@
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["Unity", "C#"],
-    "linkRef": "/WizardWars"
+    "linkRef": "#/WizardWars"
   },
   {
     "title": "The Legend of Zelda Remake",
