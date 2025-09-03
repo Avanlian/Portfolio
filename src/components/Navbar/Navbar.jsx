@@ -27,16 +27,16 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <HashLink smooth to="/#about">About</HashLink>
+            <HashLink smooth to="#about">About</HashLink>
           </li>
           <li>
-            <HashLink smooth to="/#experience">Experience</HashLink>
+            <HashLink smooth to="#experience">Experience</HashLink>
           </li>
           <li>
-            <HashLink smooth to="/#projects">Projects</HashLink>
+            <HashLink smooth to="#projects">Projects</HashLink>
           </li>
           <li>
-            <HashLink smooth to="/#contact">Contact</HashLink>
+            <HashLink smooth to="#contact">Contact</HashLink>
           </li>
         </ul>
       </div>

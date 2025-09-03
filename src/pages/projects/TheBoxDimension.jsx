@@ -3,6 +3,8 @@ import { PageNavbar } from "../../components/Navbar/PageNavbar";
 import { ProjectPage } from "../../components/Projects/ProjectPage";
 import { getImageUrl } from "../../utils";
 import { Contact } from "../../components/Contact/Contact";
+import Markdown from "react-markdown";
+import md from "./content/TheBoxDimension.md?raw"
 
 export function TheBoxDimension()
 {
@@ -11,7 +13,7 @@ export function TheBoxDimension()
             <PageNavbar />
             <ProjectPage
                 title="The Box Dimension"
-                description=""
+                description={md}
                 images={[
                     getImageUrl("projects/theBoxDimension/img1.png"),
                     getImageUrl("projects/theBoxDimension/img2.png"),

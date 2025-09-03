@@ -4,34 +4,34 @@
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["Unity", "C#", "Photoshop"],
-    "linkRef": "#/TheTowerOfAlbion#"
+    "linkRef": "#/TheTowerOfAlbion"
   },
   {
     "title": "AI Accountability Bot",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["ChatGPT", "n8n", "Notion API", "Google API"],
-    "linkRef": "#/AccountabilityBot#"
+    "linkRef": "#/AccountabilityBot"
   },
   {
     "title": "The Box Dimension",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["Unity", "C#", "Photoshop"],
-    "linkRef": "#/TheBoxDimension#page"
+    "linkRef": "#/TheBoxDimension"
   },
   {
     "title": "Wizard Wars",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["Unity", "C#"],
-    "linkRef": "#/WizardWars#"
+    "linkRef": "/WizardWars"
   },
   {
     "title": "The Legend of Zelda Remake",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["Unity", "C#"],
-    "linkRef": "#/TheLegendOfZeldaRemake#"
+    "linkRef": "#/TheLegendOfZeldaRemake"
   }
 ]
