@@ -4,7 +4,7 @@ import { ProjectPage } from "../../components/Projects/ProjectPage";
 import { getImageUrl } from "../../utils";
 import { Contact } from "../../components/Contact/Contact";
 import Markdown from "react-markdown";
-import md from "./content/theTowerOfAlbion.md?raw"
+import md from "./content/TheTowerOfAlbion.md?raw"
 
 export function TheTowerOfAlbion()
 {

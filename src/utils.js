@@ -1,4 +1,9 @@
 export const getImageUrl = (path) => {
-  const assetPath = `/assets/${path}`;
-  return new URL(assetPath, import.meta.url).href;
+  // allow "theTowerOfAlbion/cover.png" or "/theTowerOfAlbion/cover.png"
+  // also allow full http(s) URLs unchanged
+  if (/^https?:\/\//.test(path)) return path;
+  const clean = String(path || "").replace(/^\/+/, "");
+  const withAssets = clean.startsWith("assets/") ? clean : `assets/${clean}`;
+  return `${import.meta.env.BASE_URL}${withAssets}`;
 };
+
