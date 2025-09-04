@@ -8,5 +8,5 @@ css: {
         localConvention: "camelcase",
     },
 },
-base: '/Portfolio/',
+base: '/React-Portfolio/',
 });
