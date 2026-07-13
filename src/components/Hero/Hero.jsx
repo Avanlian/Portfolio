@@ -11,9 +11,11 @@ export const Hero = () => {
         <p className={styles.description}>
           A Computer Science student at the University of Michigan. Outside of my studies, I develop projects in Unity and C#, exploring areas like AI, procedural generation, and interactive environments through game development and other creative endeavors.
         </p>
-        <a href="mailto:myemail@email.com" className={styles.contactBtn}>
-          Contact Me
-        </a>
+        <div className={styles.contactBtnContainer}>
+          <a href="mailto:avanlian@umich.edu" className={styles.contactBtn}>
+            Contact Me
+          </a>
+        </div>
       </div>
       <img
         src={getImageUrl("hero/profile-picture.png")}

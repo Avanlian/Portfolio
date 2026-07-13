@@ -9,6 +9,7 @@
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
+  transition: transform 0.35s ease, box-shadow 0.35s ease, background-color 0.35s ease;
 }
 
 .content {
@@ -48,6 +49,15 @@
   font-weight: 600;
   padding: 17px 26px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.contactBtnContainer:hover {
+  transform: translateY(-4px);
+}
+
+.contactBtn:hover{
+  transform: translateY(-4px);
+  background-color: var(--color-button-hover);
 }
 
 .heroImg {
