@@ -3,10 +3,11 @@
   --color-text: #fff;
   --color-primary: #576cbc;
   --color-secondary: #19376d;
-  --color-dark: #0b2447;
+  --color-dark: #172d4c;
   --color-bg: #1e4984;
   --color-black: #2d2d2d;
-  --color-button-hover: #6c91dc;
+  --color-button: #3b7ab1;
+  --color-button-hover: #0c3a5f;
 
   /* Fonts */
   --font-roboto: "Roboto";
