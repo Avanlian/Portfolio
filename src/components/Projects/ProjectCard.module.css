@@ -3,15 +3,32 @@
 .container {
   display: flex;
   flex-direction: column;
-  border-radius: 10px;
-  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
-  box-shadow: 0 16px 14px 0 #04152d;
+  border-radius: 15px;
+  background: linear-gradient(180deg, #1e4075 0%, #243557 100%);
+  box-shadow: 0 16px 14px 0 #13243ca9;
   padding: 18px 24px;
-  max-width: 345px;
+  padding-top: 25px;
+  max-width: 100%;
+}
+
+.topRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.copy {
+  flex: 1 1 240px;
+  min-width: 240px;
 }
 
 .image {
-  margin-bottom: 26px;
+  flex: 0 0 240px;
+  width: 240px;
+  height: auto;
+  border-radius: 10px;
 }
 
 .title {
@@ -21,41 +38,57 @@
 
 .description {
   margin-top: 6px;
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 400;
+  line-height: 1.5;
 }
 
 .skills {
-  width: 100%;
-  margin-top: 14px;
+  margin-top: 20px;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 8px;
+  justify-content: left;
+  padding: 0;
   list-style: none;
 }
 
 .skill {
-  font-size: 25px;
+  font-size: 16px;
   font-weight: 400;
   border-radius: 100px;
   background: var(--color-dark);
-  padding: 2px 22px;
+  padding: 6px 14px;
 }
 
 .links {
   width: 100%;
-  margin-top: 26px;
+  margin-top: 24px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .link {
   text-decoration: none;
   color: var(--color-text);
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 600;
   border-radius: 100px;
   background: var(--color-primary);
-  padding: 1px 22px;
+  padding: 10px 24px;
+}
+
+@media screen and (max-width: 760px) {
+  .topRow {
+    flex-direction: column;
+  }
+
+  .image {
+    width: 100%;
+    flex: 1 1 100%;
+  }
+
+  .copy {
+    width: 100%;
+  }
 }
