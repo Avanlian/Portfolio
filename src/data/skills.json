@@ -30,5 +30,9 @@
   {
     "title": "Photoshop",
     "imageSrc": "skills/photoshop.png"
+  },
+  {
+    "title": "Unity Game Engine",
+    "imageSrc": "skills/unity.png"
   }
 ]

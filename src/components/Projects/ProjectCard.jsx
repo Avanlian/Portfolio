@@ -28,7 +28,7 @@ export const ProjectCard = ({
       </ul>
       <div className={styles.links} onClick={() => window.scrollTo(0, 0)}>
         <a href={linkRef} className={styles.link}>
-          Learn More
+          Read More
         </a>
       </div>
     </div>
