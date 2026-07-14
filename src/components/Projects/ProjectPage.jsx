@@ -36,6 +36,12 @@ export const ProjectPage = ({ title, subTitle, description, images = [], links =
                               className={styles.projectImage}
                           />
                       </div>
+                  ),
+
+                  blockquote: ({children}) => (
+                      <div className={styles.indentedSection}>
+                          {children}
+                      </div>
                   )
               }}
           >

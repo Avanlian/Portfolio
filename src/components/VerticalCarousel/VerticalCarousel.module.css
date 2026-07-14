@@ -31,6 +31,44 @@
   display: block;
 }
 
+.slideLeft {
+  animation: slideLeft 240ms ease;
+}
+
+.slideRight {
+  animation: slideRight 240ms ease;
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(-10px);
+    opacity: 0.1;
+  }
+  50% {
+    transform: translateX(4px);
+    opacity: 0.9;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(10px);
+    opacity: 0.1;
+  }
+  50% {
+    transform: translateX(-4px);
+    opacity: 0.9;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 .controls {
   display: flex;
   align-items: center;
@@ -46,6 +84,14 @@
   flex: 1;
 }
 
+.trackLeft {
+  animation: trackLeft 220ms ease;
+}
+
+.trackRight {
+  animation: trackRight 220ms ease;
+}
+
 .thumbnail {
   flex: 0 0 calc((100% - 1.5rem) / 3);
   max-width: 100%;
@@ -54,6 +100,28 @@
   min-width: 0;
   cursor: pointer;
   transition: transform 0.2s ease, opacity 0.2s ease, box-shadow 0.2s ease;
+}
+
+@keyframes trackLeft {
+  0% {
+    transform: translateX(-8px);
+    opacity: 0.75;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes trackRight {
+  0% {
+    transform: translateX(8px);
+    opacity: 0.75;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 .thumbnail:hover {

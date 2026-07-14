@@ -8,14 +8,17 @@ export const VerticalCarousel = ({ images = [] }) => {
   }
 
   const [index, setIndex] = useState(0);
+  const [direction, setDirection] = useState(null);
   const count = images.length;
   const visibleCount = Math.min(3, count);
 
   const prev = useCallback(() => {
+    setDirection("left");
     setIndex((i) => (i - 1 + count) % count);
   }, [count]);
 
   const next = useCallback(() => {
+    setDirection("right");
     setIndex((i) => (i + 1) % count);
   }, [count]);
 
@@ -52,7 +55,16 @@ export const VerticalCarousel = ({ images = [] }) => {
       tabIndex={0}
       onKeyDown={onKeyDown}
     >
-      <div className={styles.preview}>
+      <div
+        className={`${styles.preview} ${
+          direction === "left"
+            ? styles.slideLeft
+            : direction === "right"
+            ? styles.slideRight
+            : ""
+        }`}
+        onAnimationEnd={() => setDirection(null)}
+      >
         <img
           src={previewSrc}
           alt={`Preview screenshot ${index + 1}`}
@@ -71,7 +83,15 @@ export const VerticalCarousel = ({ images = [] }) => {
           ◀
         </button>
 
-        <div className={styles.track}>
+        <div
+          className={`${styles.track} ${
+            direction === "left"
+              ? styles.trackLeft
+              : direction === "right"
+              ? styles.trackRight
+              : ""
+          }`}
+        >
           {visible.map(({ src, idx }) => (
             <img
               key={idx}

@@ -1,29 +1,34 @@
 ---
 
 ## Overview  
-**Tower of Albion** is a **top-down hack-and-slash roguelike** and the continuation of my earlier prototype, *Wizard Wars*.  
-It has been my main focus for over a year, and is currently playable through its first five stages.  
-
-Each run is designed to feel unique through randomized level layouts, power-up choices, and evolving enemy behaviors.  
-The project showcases my growth as a developer, with an emphasis on **clean architecture and scalable design**.  
+**Tower of Albion** is a **top-down, hack-and-slash, roguelike game** where you fight through waves of enemies to reach the top. Each completed level grants the player with a choice between one of two power ups, each with their own costs and rewards. Runs are designed to feel unique through randomized level layouts, power-up options, varying enemy behaviours, and environmental hazards.
 
 ---
 
 ## Core Gameplay  
-- **Procedural Variability**  
-  - 5 playable stages per run.  
-  - Each stage randomly selects from **3 map variants**, creating hundreds of possible run combinations.  
+> **Attacks and Abilities**
+>> Left Mouse Button: Sword Attacks 
+>>> Basic sword attack. Clicking the left mouse button fires a basic sword attack towards the location of the mouse. Holding the left mouse button charges the basic attack into a flying slash which shoots towards the mouse once released.
 
-- **Power-Ups**  
-  - After completing each stage, players choose 1 of 2 upgrades.  
-  - Built with **scriptable objects** and an **event bus system**, enabling effects on both players and enemies.  
+>> Right Mouse Button: Ward
+>>> Converts all incoming damage into magical damage. All incoming damage, while holding down the right mouse button, deals damage to the player's mana pool instead of their health.
 
-- **Enemy Design**  
-  - Implemented with **state machines** (idle, attack, dead, escape).  
-  - Current roster:  
-    - **Archer** – fires staggered homing arrows; can lay explosives and retreat if pressured.  
-    - **Barbarian** – melee unit with a ground-cast attack and spinning axe (“Beyblade”) move.  
-    - **Mage** – summons AoE hex circles with clear telegraphs.  
+>> Spacebar: Dash
+>>> pressing the spacebar makes the player move much faster and grants a brief moment of invincibility. Dashing at the right moment can nullify incoming damage entirely.
+
+>> Q Button: Hex Cast
+>>> Pressing Q places down an area of effect spell. The player is only allotted 1 hex, and may not place down another until the existing one has expired. Holding down Q charges the hex, making it deal more damage, and last longer.
+
+> **Procedural Generation (Not really)**  
+>> Currently, the tower has 5 levels, each with 3 potential variants. Once a level is completed, stepping on the transportation pad takes the player to a new level. 
+
+>> ![Alt Text](public/assets/projects/theTowerOfAlbion/transportation.png)
+
+
+> **Power-Ups**  
+>> After completing a level, players are made to choose between one of two power ups. Each ability grants the player with uniqe powers at varying costs. For example, the *Critical Merchant* ability lowers the player's overall attacking power, but raises the critical chance by an additional 10 percent. Additionally, critical strikes trigger a state which temporarily raises the critical chance even higher. 
+
+>> ![Alt Text](public/assets/projects/theTowerOfAlbion/AbilityTrade1.png)
 
 - **Traps & Hazards**  
   - Includes turrets, spike traps, and explosive barrels (under refinement).  
@@ -77,4 +82,8 @@ This project has taught me the importance of balance — especially in scope. As
 
 This is single-handedly my longest-running project, and I’m incredibly proud of it. There are still bugs, and this isn’t the finish line, but for now, I can be content with how far it has come.  
  
+
+
+
+
 

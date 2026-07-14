@@ -1,5 +1,3 @@
-*Unity (2024) · Team Project (5 people) · Final Course Project*  
-
 ---
 ## Overview
 **The Box Dimension** is a real-time, turn-based strategy game where the player controls a cat that gains new abilities over time.  

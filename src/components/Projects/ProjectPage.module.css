@@ -24,7 +24,7 @@
 /* Keep the carousel visible while scrolling */
 .sticky {
   position: sticky;
-  top: 84px; /* adjust to match your header/nav height */
+  top: 100px; /* adjust to match your header/nav height */
 }
 
 /* Left-side content stack */
@@ -114,13 +114,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1rem 0;
 }
 
 .projectImage {
     width: 70%;
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(0,0,0,.3);
+}
+
+.indentedSection {
+    margin: 2rem 0 2rem 2rem;
+}
+
+.indentedSection p:first-child,
+.indentedSection h3:first-child {
+    margin-top: 0;
 }
 
 /* Mobile: stack everything, no float, no sticky */
