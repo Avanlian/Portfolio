@@ -4,7 +4,8 @@ import { ProjectPage } from "../../components/Projects/ProjectPage";
 import { getImageUrl } from "../../utils";
 import { Contact } from "../../components/Contact/Contact";
 import Markdown from "react-markdown";
-import md from "./content/TheLegendOfZelda.md?raw"
+import md from "./content/Zelda/TheLegendOfZelda.md?raw"
+import subTitle from "./content/Zelda/SubTitle.md?raw"
 
 export function TheLegendOfZeldaRemake()
 {
@@ -13,6 +14,7 @@ export function TheLegendOfZeldaRemake()
             <PageNavbar />
             <ProjectPage
                 title="The Legend of Zelda - Unity Remake"
+                subTitle={subTitle}
                 description={md}
                 images={[
                     getImageUrl("projects/theLegendOfZelda/img1.png"),

@@ -4,7 +4,8 @@ import { ProjectPage } from "../../components/Projects/ProjectPage";
 import { getImageUrl } from "../../utils";
 import { Contact } from "../../components/Contact/Contact";
 import Markdown from "react-markdown";
-import md from "./content/TheBoxDimension.md?raw"
+import md from "./content/TheBoxDimension/TheBoxDimension.md?raw"
+import subTitle from "./content/TheBoxDimension/SubTitle.md?raw"
 
 export function TheBoxDimension()
 {
@@ -13,6 +14,7 @@ export function TheBoxDimension()
             <PageNavbar />
             <ProjectPage
                 title="The Box Dimension"
+                subTitle={subTitle}
                 description={md}
                 images={[
                     getImageUrl("projects/theBoxDimension/img1.png"),

@@ -4,7 +4,8 @@ import { ProjectPage } from "../../components/Projects/ProjectPage";
 import { getImageUrl } from "../../utils";
 import { Contact } from "../../components/Contact/Contact";
 import Markdown from "react-markdown";
-import md from "./content/TheTowerOfAlbion.md?raw"
+import md from "./content/TheTowerOfAlbion/TheTowerOfAlbion.md?raw"
+import subTitle from "./content/TheTowerOfAlbion/SubTitle.md?raw"
 
 export function TheTowerOfAlbion()
 {
@@ -13,6 +14,7 @@ export function TheTowerOfAlbion()
             <PageNavbar />
             <ProjectPage
                 title="The Tower of Albion"
+                subTitle={subTitle}
                 description={md}
                 images={[
                     getImageUrl("projects/theTowerOfAlbion/img1.png"),

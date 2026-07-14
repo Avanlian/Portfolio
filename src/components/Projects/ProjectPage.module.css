@@ -46,6 +46,15 @@
   -webkit-background-clip: text;
 }
 
+.subTitle {
+  font-size: 30px;
+  font-family: var(--font-roboto);
+  margin-bottom: 40px;
+  line-height: 1.55;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
 .description {
   font-size: 30px;
   font-family: var(--font-roboto);

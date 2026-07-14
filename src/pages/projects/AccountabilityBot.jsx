@@ -3,7 +3,8 @@ import { PageNavbar } from "../../components/Navbar/PageNavbar";
 import { ProjectPage } from "../../components/Projects/ProjectPage";
 import { getImageUrl } from "../../utils";
 import Markdown from "react-markdown";
-import md from "./content/AccountabilityBot.md?raw"
+import md from "./content/AccountabilityBot/AccountabilityBot.md?raw"
+import subTitle from "./content/AccountabilityBot/SubTitle.md?raw"
 
 export function AccountabilityBot()
 {
@@ -12,6 +13,7 @@ export function AccountabilityBot()
             <PageNavbar />
             <ProjectPage
                 title="AI Accountability Bot"
+                subTitle={subTitle}
                 description={md}
                 images={[
                     getImageUrl("projects/AIChatBot/img1.png"),

@@ -4,7 +4,8 @@ import { ProjectPage } from "../../components/Projects/ProjectPage";
 import { getImageUrl } from "../../utils";
 import { Contact } from "../../components/Contact/Contact";
 import Markdown from "react-markdown";
-import md from "./content/WizardWars.md?raw"
+import md from "./content/WizardWars/WizardWars.md?raw"
+import subTitle from "./content/WizardWars/SubTitle.md?raw"
 
 export function WizardWars()
 {
@@ -13,6 +14,7 @@ export function WizardWars()
                 <PageNavbar />
                 <ProjectPage
                     title="Wizard Wars"
+                    subTitle={subTitle}
                     description={md}
                     images={[
                         getImageUrl("projects/wizardWars/img1.png"),
