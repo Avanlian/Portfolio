@@ -22,13 +22,13 @@
 > **Procedural Generation (Not really)**  
 >> Currently, the tower has 5 levels, each with 3 potential variants. Once a level is completed, stepping on the transportation pad takes the player to a new level. 
 
->> ![Alt Text](public/assets/projects/theTowerOfAlbion/transportation.png)
+>> ![transportation](assets/projects/theTowerOfAlbion/transportation.png)
 
 
 > **Power-Ups**  
 >> After completing a level, players are made to choose between one of two power ups. Each ability grants the player with uniqe powers at varying costs. For example, the *Critical Merchant* ability lowers the player's overall attacking power, but raises the critical chance by an additional 10 percent. Additionally, critical strikes trigger a state which temporarily raises the critical chance even higher. 
 
->> ![Alt Text](public/assets/projects/theTowerOfAlbion/AbilityTrade1.png)
+>> ![trade1](assets/projects/theTowerOfAlbion/AbilityTrade1.png)
 
 - **Traps & Hazards**  
   - Includes turrets, spike traps, and explosive barrels (under refinement).  
