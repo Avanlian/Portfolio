@@ -8,7 +8,6 @@ It evolved into a **life co-pilot**, combining automation, daily check-ins, and 
 
 The chatbot runs inside a Docker container using **n8n automations** and integrates with Google Calendar, Notion, and Telegram.  
 Its main purpose is to serve as a **daily digital journal and accountability system**, checking in at set times and logging my responses for later use.  
-
 ---
 
 ## Problem & Goal

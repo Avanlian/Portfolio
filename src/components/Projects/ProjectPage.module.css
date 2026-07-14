@@ -100,6 +100,20 @@
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
 }
 
+.mdImgContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.projectImage {
+    width: 70%;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,.3);
+}
+
 /* Mobile: stack everything, no float, no sticky */
 @media screen and (max-width: 830px) {
   .container {

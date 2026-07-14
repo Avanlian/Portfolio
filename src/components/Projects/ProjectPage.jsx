@@ -22,7 +22,22 @@ export const ProjectPage = ({ title, description, images = [], links = [] }) => 
       <div className={styles.content}>
 
         <div className={styles.description}>
-          <ReactMarkdown>{description}</ReactMarkdown>
+          <ReactMarkdown
+              components={{
+                // Override the default image rendering to apply custom styles allows for images to be referenced in markdown
+                //![Alt Text](public/assets/projects/img)
+                  img: ({node, ...props}) => (
+                      <div className={styles.mdImgContainer}>
+                          <img
+                              {...props}
+                              className={styles.projectImage}
+                          />
+                      </div>
+                  )
+              }}
+          >
+              {description}
+          </ReactMarkdown>
         </div>
       </div>
     </section>
