@@ -43,6 +43,11 @@
   flex-wrap: wrap;
 }
 
+.topRow a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
 .copy {
   flex: 1 1 240px;
   min-width: 240px;
@@ -58,6 +63,9 @@
 .title {
   font-size: 25px;
   font-weight: 700;
+  text-decoration: none;
+  color: var(--color-text);
+  font-weight: 600;
 }
 
 .description {

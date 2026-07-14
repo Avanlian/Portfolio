@@ -44,6 +44,7 @@ export const VerticalCarousel = ({ images = [] }) => {
   const previewSrc = images[index];
 
   return (
+    <section className={styles.container} id="about">
     <div
       className={styles.carousel}
       role="region"
@@ -94,5 +95,6 @@ export const VerticalCarousel = ({ images = [] }) => {
         </button>
       </div>
     </div>
+    </section>
   );
 };
