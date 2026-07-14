@@ -2,23 +2,56 @@
 .carousel {
   display: flex;
   flex-direction: column;
-  align-items: stretch; /* fill the aside width */
-  gap: 0.75rem;
+  align-items: center;
+  gap: 1rem;
   width: 100%;
+}
+
+.preview {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.preview img {
+  width: 75%;
+  max-width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  display: block;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 70%;
 }
 
 .track {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 0.75rem;
   overflow: hidden;
+  flex: 1;
 }
 
-.track img {
-  width: 100%;
-  max-height: 300px;
+.thumbnail {
+  flex: 0 0 calc((100% - 1.5rem) / 3);
+  max-width: 100%;
   border-radius: 8px;
   object-fit: cover;
+  min-width: 0;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease, box-shadow 0.2s ease;
+}
+
+.thumbnail:hover {
+  transform: scale(1.02);
+}
+
+.activeThumbnail {
+  box-shadow: 0 0 0 3px var(--color-primary);
 }
 
 .arrow {
@@ -28,8 +61,8 @@
   cursor: pointer;
   user-select: none;
   color: var(--color-text);
-  transition: color 0.2s ease; /* <-- was missing the 's' */
-  padding: 0.25rem;
+  transition: color 0.2s ease;
+  padding: 0.5rem;
 }
 
 .arrow:active {
@@ -41,4 +74,11 @@
 .arrow:focus-visible {
   outline: 2px solid var(--color-primary);
   outline-offset: 2px;
+}
+
+@media screen and (max-width: 830px) {
+  .track img {
+    flex: 0 0 calc((100% - 0.75rem) / 2);
+    max-height: 180px;
+  }
 }

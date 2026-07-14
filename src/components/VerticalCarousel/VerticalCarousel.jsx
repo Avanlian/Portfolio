@@ -19,12 +19,16 @@ export const VerticalCarousel = ({ images = [] }) => {
     setIndex((i) => (i + 1) % count);
   }, [count]);
 
+  const handleThumbnailClick = useCallback((idx) => {
+    setIndex(idx);
+  }, []);
+
   const onKeyDown = useCallback(
     (e) => {
-      if (e.key === "ArrowUp") {
+      if (e.key === "ArrowLeft") {
         e.preventDefault();
         prev();
-      } else if (e.key === "ArrowDown") {
+      } else if (e.key === "ArrowRight") {
         e.preventDefault();
         next();
       }
@@ -37,6 +41,8 @@ export const VerticalCarousel = ({ images = [] }) => {
     return { src: images[idx], idx };
   });
 
+  const previewSrc = images[index];
+
   return (
     <div
       className={styles.carousel}
@@ -45,35 +51,48 @@ export const VerticalCarousel = ({ images = [] }) => {
       tabIndex={0}
       onKeyDown={onKeyDown}
     >
-      <button
-        onClick={prev}
-        className={styles.arrow}
-        aria-label="Previous screenshots"
-        type="button"
-      >
-        ▲
-      </button>
-
-      <div className={styles.track}>
-        {visible.map(({ src, idx }) => (
-          <img
-            key={idx}
-            src={src}
-            alt={`Screenshot ${idx + 1}`}
-            loading="lazy"
-            draggable="false"
-          />
-        ))}
+      <div className={styles.preview}>
+        <img
+          src={previewSrc}
+          alt={`Preview screenshot ${index + 1}`}
+          loading="lazy"
+          draggable="false"
+        />
       </div>
 
-      <button
-        onClick={next}
-        className={styles.arrow}
-        aria-label="Next screenshots"
-        type="button"
-      >
-        ▼
-      </button>
+      <div className={styles.controls}>
+        <button
+          onClick={prev}
+          className={styles.arrow}
+          aria-label="Previous screenshots"
+          type="button"
+        >
+          ◀
+        </button>
+
+        <div className={styles.track}>
+          {visible.map(({ src, idx }) => (
+            <img
+              key={idx}
+              src={src}
+              alt={`Screenshot ${idx + 1}`}
+              loading="lazy"
+              draggable="false"
+              className={`${styles.thumbnail} ${idx === index ? styles.activeThumbnail : ""}`}
+              onClick={() => handleThumbnailClick(idx)}
+            />
+          ))}
+        </div>
+
+        <button
+          onClick={next}
+          className={styles.arrow}
+          aria-label="Next screenshots"
+          type="button"
+        >
+          ▶
+        </button>
+      </div>
     </div>
   );
 };

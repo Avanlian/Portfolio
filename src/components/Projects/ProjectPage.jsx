@@ -13,11 +13,9 @@ export const ProjectPage = ({ title, description, images = [], links = [] }) => 
       {/* Float-right sticky carousel first so text wraps beside it */}
       <h1 className={styles.title}>{title}</h1>
       {hasImages && (
-        <aside className={styles.aside} aria-label="Project media">
-          <div className={styles.sticky}>
+        <div className={styles.sticky}>
             <VerticalCarousel images={images} />
-          </div>
-        </aside>
+        </div>
       )}
 
       {/* Left Side - Content */}
@@ -26,23 +24,6 @@ export const ProjectPage = ({ title, description, images = [], links = [] }) => 
         <div className={styles.description}>
           <ReactMarkdown>{description}</ReactMarkdown>
         </div>
-
-        {/* Links (optional, e.g., GitHub, Itch.io) */}
-        {links.length > 0 && (
-          <div className={styles.links}>
-            {links.map((link, i) => (
-              <a
-                key={i}
-                href={link.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.contactBtn}
-              >
-                {link.label}
-              </a>
-            ))}
-          </div>
-        )}
       </div>
     </section>
   );
