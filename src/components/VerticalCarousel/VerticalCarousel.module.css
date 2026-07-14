@@ -61,7 +61,7 @@
 }
 
 .activeThumbnail {
-  box-shadow: 0 0 0 3px var(--color-primary);
+  box-shadow: 3px 0 0 2px rgba(242, 235, 213, 0.989);
 }
 
 .arrow {
