@@ -1,1 +1,1 @@
-*Docker · n8n Automations · APIs (Google, Notion, Telegram) · Ongoing Project (July 2025)*  
+*Docker · n8n Automations · APIs (Google, Notion, Telegram) · Retired Project (July 2025-December 2025)*  

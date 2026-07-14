@@ -7,18 +7,18 @@
     "linkRef": "#/TheTowerOfAlbion"
   },
   {
-    "title": "AI Accountability Bot",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["ChatGPT", "n8n", "Notion API", "Google API"],
-    "linkRef": "#/AccountabilityBot"
-  },
-  {
     "title": "The Box Dimension",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["Unity", "C#", "Photoshop"],
     "linkRef": "#/TheBoxDimension"
+  },
+  {
+    "title": "AI Accountability Bot",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["ChatGPT", "n8n", "Notion API", "Google API"],
+    "linkRef": "#/AccountabilityBot"
   },
   {
     "title": "Wizard Wars",

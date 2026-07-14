@@ -1,69 +1,23 @@
 ---
 
-## Overview
-This project began as an experiment to build a **personal accountability bot** that could help me stay motivated, plan my day, and track progress.  
-It evolved into a **life co-pilot**, combining automation, daily check-ins, and data storage through APIs.  
-
-The chatbot runs inside a Docker container using **n8n automations** and integrates with Google Calendar, Notion, and Telegram.  
-Its main purpose is to serve as a **daily digital journal and accountability system**, checking in at set times and logging my responses for later use.  
----
-
-## Problem & Goal
-I often struggled with motivation and found that writing my plans and reflections into ChatGPT made me more productive. I'm unsure if it was the act of writing down my issues and intentions, or if it was that something actually responded to them.
-
-One of the inspirations for this project came from *Atomic Habits* by James Clear:  
-> “You do not rise to the level of your goals. You fall to the level of your systems.”  
-
-I have big aspirations, but if I don’t stop and take a second to think, it becomes incredibly easy for me to become paralyzed with fear.  
-
-This project is my attempt to build a **safety net** for myself. A system so strong it prevents my worst faults from slipping through the cracks, and keeps me accountable day after day, even when I don't want to be.
-
+## Overview  
+The AI Accountability Bot was my first introduction to self-hosting. Running n8n through docker, it acted as a personal productivity assistant designed to help me stay accountable to my goals while automating parts of my daily routine. 
 
 ---
 
-## How It Works
-- **Morning Check-In**  
-  - Bot sends me a series of randomly generated questions such as: *What do you want to do today? What kind of person do you want to be? Are these the goals tasks you should be focused on?*  
-  - My answers are analyzed, summarized, and then stored in a **Notion database** for tracking.  
+## Core Functionality
+> **Daily Check ins**
+>> Three times a day, the bot sends the user a telegram message asking for them to check in Responses get processed through the Telegram and Notion APIs, automatically creating entries in a personal Notion database that tracks the user's mood, activities, progress, and daily reflections.
 
-- **Daytime Check-Ins**  
-  - At scheduled times (e.g., 12 p.m., 3 p.m., 6 p.m.), the bot asks about progress: *Did you finish any goals?*  
-  - Timed check-ins have not been fully tested yet. The program is in the process of being migrated to a dedicated server for 24/7 access
-  - Updates Notion with successes and struggles.  
+> **Secondary Knowledge**
+>> The bot also has access to a separate Notion database containing personal goals, reminders, quotes, and notes I wanted to keep in mind. It uses this information to generate personalized responses during each check-in, tailoring its feedback around the goals and principles I had previously recorded.
 
-- **Nightly Reflection**  
-  - Summarizes the day: *What went well? What could be improved?*  
-  - Analyzes the day's activities and considers if actions were in line with the user's goals.
+> **Calendar Agent**
+>> The bot also takes advantage of the Google API. This opened the door for a personal calendar assistant. By sending a telegram message to the bot, the bot analyzes the message and carries out the requested task. For example, the user could create, delete, or modify a calendar event through a telegram message.
 
-- **Utility Functions**  
-  - Google Calendar agent: schedule, delete, or edit events via chatbot commands.  
-  - Telegram webhook: allows mobile access from anywhere.  
+## What I Learned
+> This project was my first introduction to homelabbing and self-hosted applications. Before building it, I had very little experience with Docker, workflow automation, or integrating multiple APIs into a single system. By the end, I had built a service capable of running continuously, coordinating between Telegram, Notion, and an LLM to automate daily check-ins and personal data tracking.
 
----
+> Building the bot also introduced me to the networking side of self-hosting. To allow external services to communicate with my server, I had to configure a private domain, secured it behind Cloudflare, and expose my n8n instance through a reverse proxy tunnel. It's due to those experiences that I learned how webhooks work, how to securely expose services to the internet, and how to manage API credentials across multiple integrations.
 
-## My Contributions
-- Built the system using **n8n workflows** inside a Docker container.  
-- Integrated multiple APIs:
-  - **Google Calendar API** for scheduling and event editing.  
-  - **Notion API** to store check-in and reflection data.  
-  - **Telegram API** to send/receive messages through a webhook.  
-- Designed the **check-in system** using n8n's visual scripting tool.
-- Configured **Cloudflare tunnel + domain setup** for secure remote access from anywhere in the world.
-
----
-
-## Reflection
-### What I learned:  
-- How to design and implement **end-to-end automation pipelines** with n8n and Docker.  
-- Practical experience with **API authentication and data exchange** (Google, Notion, Telegram).  
-- The importance of **scope control** — starting simple (check-ins, basic storage) before layering advanced features.  
-- How accountability systems can be both a **technical challenge** and a **personal productivity tool**.  
-
----
-
-## Future Plans
-- The bot currently requires manual startup, which limits testing. Migrating to a **24/7 home server** is the next step.  
-- At the time, I relied on cloud APIs (ChatGPT, etc.), but long-term I want a **locally run LLM** for privacy and control over personal data.  
-- **Smarter accountability**: Missed check-ins will trigger reminders or escalations.  
-- **Expanded journaling/analytics**: Weekly/monthly reports on productivity trends.  
-
+> Other than that, this project taught me a valuable lesson beyond the technical aspects. When I originally built the bot, I was really struggling with motivation, and keeping on track with my goals. The purpose of the project was to help me build more discipline in my life and live more intentionally. I eventually realized I was spending more time working on the system than pursuing the goals it was designed to support. While the project achieved its purpose as a learning experience, it also reminded me that software should serve the problem, not become the problem itself.

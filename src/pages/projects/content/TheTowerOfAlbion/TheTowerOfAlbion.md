@@ -39,5 +39,5 @@
 ---
 
 ## Media & Links 
-If you don't want to download the file, the game is playable on a browser, please make sure to have a keyboard and mouse on hand for the best experience.
-- [Download Link](https://avanlian.itch.io/the-tower-of-albion)
+You can play it here!
+[Download Link](https://avanlian.itch.io/the-tower-of-albion)
