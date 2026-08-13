@@ -12,18 +12,18 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/controllerIcon.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
-              <h3>Unity Developer</h3>
+              <h3>Unity Game Developer</h3>
               <p>
-                I’ve built multiple projects in Unity using C#, with a focus on writing scalable and maintainable code. My work includes designs for powerups, object pooling, and semi-procedural level generation, all made to encourage replayability and make future expansion easier.
+                A lot of my experience comes from making games in Unity. I enjoy the combination of programming, design, and creative problem-solving that comes with game development. I’ve worked on everything from small prototypes and remakes to larger projects with more complex gameplay and technical challenges.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/programIcon.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
-              <h3>Programmer</h3>
+              <h3>Full Stack</h3>
               <p>
-                Background in algorithms, data structures, and object-oriented design, applied through both academic and personal projects.
+                My experience with web development includes both client-side and server-side development. I’ve worked with React, JavaScript, HTML, CSS, and SQL, along with database design and management, REST APIs, data processing, networking, and concurrent programming.
               </p>
             </div>
           </li>

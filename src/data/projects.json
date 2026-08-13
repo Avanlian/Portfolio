@@ -2,35 +2,35 @@
   {
     "title": "The Tower of Albion",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "A roguelike action-RPG currently in active development, where each run is a unique combination of handcrafted maps and encounters. The game focuses on combat, progression, and a contract-based magic system inspired by various games and media.",
     "skills": ["Unity", "C#", "Photoshop"],
     "linkRef": "#/TheTowerOfAlbion"
   },
   {
     "title": "The Box Dimension",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "A real-time, turn-based strategy game where you play as a cat that gains new abilities as you progress. Developed in Unity over a semester as a five-person team, the project included the full development cycle from story and design to marketing, playtesting, and iteration.",
     "skills": ["Unity", "C#", "Photoshop"],
     "linkRef": "#/TheBoxDimension"
   },
   {
     "title": "AI Accountability Bot",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "An AI-powered personal assistant built to help me stay accountable to my goals and automate parts of my daily routine. Self-hosted with n8n, the bot conducted personalized Telegram check-ins, logged reflections and activities to Notion, and managed Google Calendar events through natural-language commands.",
     "skills": ["ChatGPT", "n8n", "Notion API", "Google API"],
     "linkRef": "#/AccountabilityBot"
   },
   {
     "title": "Wizard Wars",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "A rapid Unity prototype created to explore the combat systems that would later become the foundation for *The Tower of Albion*. Built in just two weeks for the Hyper Demo project, the boss rush focused on quickly prototyping abilities, enemy encounters, and combat mechanics while taking advantage of Unity's rapid development workflow.",
     "skills": ["Unity", "C#"],
     "linkRef": "#/WizardWars"
   },
   {
     "title": "The Legend of Zelda Remake",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "A Unity recreation of the first dungeon from the original 1986 *Legend of Zelda*, built with a partner to learn the fundamentals of game development. Alongside recreating the original enemies, weapons, rooms, and combat, we added new mechanics and boss encounters to expand on the classic dungeon.",
     "skills": ["Unity", "C#"],
     "linkRef": "#/TheLegendOfZeldaRemake"
   }

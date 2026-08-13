@@ -9,7 +9,7 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Anthony</h1>
         <p className={styles.description}>
-          A Computer Science student at the University of Michigan. Outside of my studies, I develop projects in Unity and C#, exploring areas like AI, procedural generation, and interactive environments through game development and other creative endeavors.
+          I’m a developer who enjoys creating useful and interactable technologies. My projects have taken me from game development and interactive systems to AI tools, automation, self-hosted applications, and full-stack web development. I’m always interested in learning new and emerging technologies when they can help bring an idea to life. 
         </p>
         <div className={styles.contactBtnContainer}>
           <a href="mailto:avanlian@umich.edu" className={styles.contactBtn}>
