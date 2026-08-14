@@ -28,7 +28,7 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/aiIcon.png")} alt="UI icon" />
+            <img src={getImageUrl("about/servers.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
               <h3>AI & Automation</h3>
               <p>
