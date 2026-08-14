@@ -14,7 +14,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Unity Game Developer</h3>
               <p>
-                A lot of my experience comes from making games in Unity. I enjoy the combination of programming, design, and creative problem-solving that comes with game development. I’ve worked on everything from small prototypes and remakes to larger projects with more complex gameplay and technical challenges.
+                A lot of my experience comes from making games in Unity. I’ve worked on everything from small prototypes and remakes to larger projects with more complex gameplay and technical challenges.
               </p>
             </div>
           </li>
@@ -23,25 +23,25 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Full Stack</h3>
               <p>
-                My experience with web development includes both client-side and server-side development. I’ve worked with React, JavaScript, HTML, CSS, and SQL, along with database design and management, REST APIs, data processing, networking, and concurrent programming.
+                My experience with web development includes both client-side and server-side development. I’ve worked with React, JavaScript, HTML, CSS, and SQL, along with database design and management.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/servers.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3>AI & Automation</h3>
+              <h3>Server and Networking</h3>
               <p>
-                Hands-on experience with building AI-powered chatbots and automation pipelines, focusing on memory, adaptability, recall, and real-time user interaction.
+                I’ve built and maintained a personal server, using Linux and Docker to host and manage a variety of services. I use open-source software extensively, and enjoy learning how to configure and maintain it.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/paintIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3>Designer and Builder</h3>
+              <h3>Creative</h3>
               <p>
-                Passionate about creativity and software engineering, I design experiences that encourage experimentation, exploration, and play. I enjoy turning ideas into interactive games, approaching design as both a technical and creative challenge.
+                My experience extends beyond software development into a variety of creative fields. I’ve enjoyed working across both creative and technical disciplines, and I often find that the skills I develop in one influence how I approach the other.
               </p>
             </div>
           </li>
