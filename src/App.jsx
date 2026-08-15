@@ -6,6 +6,7 @@ import { TheBoxDimension } from './pages/projects/TheBoxDimension'
 import { TheLegendOfZeldaRemake } from './pages/projects/TheLegendOfZeldaRemake'
 import { TheTowerOfAlbion } from './pages/projects/TheTowerOfAlbion'
 import { WizardWars } from './pages/projects/WizardWars'
+import { Insta485 } from './pages/projects/Insta485'
 
 function App(){
   return (
@@ -17,6 +18,7 @@ function App(){
             <Route path="/TheLegendOfZeldaRemake" element={<TheLegendOfZeldaRemake/>}/>
             <Route path="/TheTowerOfAlbion" element={<TheTowerOfAlbion/>}/>
             <Route path="/WizardWars" element={<WizardWars/>}/>
+            <Route path="/Insta485" element={<Insta485/>}/>
         </Routes>
     </Router>
   )

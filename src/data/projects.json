@@ -7,6 +7,13 @@
     "linkRef": "#/TheTowerOfAlbion"
   },
   {
+    "title": "Insta485 (Instagram Clone)",
+    "imageSrc": "projects/project.png",
+    "description": "A web application modeled after Instagram, developed with a friend for a university project. We built both the client-side and server-side applications, implementing features such as user accounts, authentication, posts, comments, likes, and an infinite scroll feature",
+    "skills": ["React", "Python", "Flask", "SQL", "REST APIs"],
+    "linkRef": "#/Insta485"
+  },
+  {
     "title": "The Box Dimension",
     "imageSrc": "projects/project.png",
     "description": "A real-time, turn-based strategy game where you play as a cat that gains new abilities as you progress. Developed in Unity over a semester as a five-person team, the project included the full development cycle from story and design to marketing, playtesting, and iteration.",
