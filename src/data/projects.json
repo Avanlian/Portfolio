@@ -17,14 +17,14 @@
     "title": "AI Accountability Bot",
     "imageSrc": "projects/project.png",
     "description": "An AI-powered personal assistant built to help me stay accountable to my goals and automate parts of my daily routine. Self-hosted with n8n, the bot conducted personalized Telegram check-ins, logged reflections and activities to Notion, and managed Google Calendar events through natural-language commands.",
-    "skills": ["ChatGPT", "n8n", "Notion API", "Google API"],
+    "skills": ["ChatGPT", "n8n", "Notion API", "Google API", "Telegram API", "Cloudflare"],
     "linkRef": "#/AccountabilityBot"
   },
   {
     "title": "Wizard Wars",
     "imageSrc": "projects/project.png",
     "description": "A rapid Unity prototype created to explore the combat systems that would later become the foundation for *The Tower of Albion*. Built in just two weeks for the Hyper Demo project, the boss rush focused on quickly prototyping abilities, enemy encounters, and combat mechanics while taking advantage of Unity's rapid development workflow.",
-    "skills": ["Unity", "C#"],
+    "skills": ["Unity", "C#", "Photoshop"],
     "linkRef": "#/WizardWars"
   },
   {
