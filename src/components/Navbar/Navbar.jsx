@@ -29,7 +29,7 @@ export const Navbar = () => {
             <HashLink smooth to="#about">About</HashLink>
           </li>
           <li>
-            <HashLink smooth to="#experience">Experience</HashLink>
+            <HashLink smooth to="#experience">Skills and Tools</HashLink>
           </li>
           <li>
             <HashLink smooth to="#projects">Projects</HashLink>

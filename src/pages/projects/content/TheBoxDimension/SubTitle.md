@@ -1,1 +1,1 @@
-*Unity (2024) · Team Project (5 people) · Final Course Project*  
+*Unity (2024) · Team Project (5 people) · University Capstone Project*  

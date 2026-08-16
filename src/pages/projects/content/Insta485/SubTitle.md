@@ -1,1 +1,1 @@
-Work in Progress
+*An Instagram clone built with both server-side Flask and client-side React architectures*
