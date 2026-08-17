@@ -16,6 +16,11 @@ export function Insta485()
                 subTitle={subTitle}
                 description={md}
                 images={[
+                    getImageUrl("projects/insta485/img1.png"),
+                    getImageUrl("projects/insta485/img2.png"),
+                    getImageUrl("projects/insta485/img3.png"),
+                    getImageUrl("projects/insta485/img4.png"),
+                    getImageUrl("projects/insta485/img5.png")
                 ]}/>
         </div>
     )
