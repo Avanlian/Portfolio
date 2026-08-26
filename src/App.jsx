@@ -7,6 +7,7 @@ import { TheLegendOfZeldaRemake } from './pages/projects/TheLegendOfZeldaRemake'
 import { TheTowerOfAlbion } from './pages/projects/TheTowerOfAlbion'
 import { WizardWars } from './pages/projects/WizardWars'
 import { Insta485 } from './pages/projects/Insta485'
+import { MapReduce } from './pages/projects/MapReduce'
 
 function App(){
   return (
@@ -14,6 +15,7 @@ function App(){
         <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/AccountabilityBot" element={<AccountabilityBot/>}/>
+            <Route path="/MapReduce" element={<MapReduce/>}/>
             <Route path="/TheBoxDimension" element={<TheBoxDimension/>}/>
             <Route path="/TheLegendOfZeldaRemake" element={<TheLegendOfZeldaRemake/>}/>
             <Route path="/TheTowerOfAlbion" element={<TheTowerOfAlbion/>}/>

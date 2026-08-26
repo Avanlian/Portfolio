@@ -7,6 +7,13 @@
     "linkRef": "#/TheTowerOfAlbion"
   },
   {
+    "title": "MapReduce",
+    "imageSrc": "projects/project.png",
+    "description": "A distributed computing framework for processing large datasets in parallel across a cluster of machines. Implemented using Hadoop and Spark, with a focus on scalability and fault tolerance.",
+    "skills": ["Java", "Python", "Hadoop", "Distributed Systems"],
+    "linkRef": "#/MapReduce"
+  },
+  {
     "title": "Insta485 (Instagram Clone)",
     "imageSrc": "projects/project.png",
     "description": "A web application modeled after Instagram, developed with a friend for a university project. We built both the client-side and server-side applications, implementing features such as user accounts, authentication, posts, comments, likes, and an infinite scroll feature",
